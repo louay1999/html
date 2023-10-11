@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6dada;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 36px;
+    color: #050308;
+    margin-bottom: 20px;
+}
+.page-title {
+    font-size: 36px;
+    color: #050308;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Couleur de fond de la barre de navigation */
+    overflow: hidden; /* Permet de gérer les éléments débordants */
+}
+
+li {
+    float: left; /* Les éléments de liste flottent à gauche */
+}
+
+a {
+    display: block; /* Les liens prennent toute la largeur du conteneur */
+    color: #195999; /* Couleur du texte des liens */
+    text-align: center; /* Centre le texte dans le lien */
+    padding: 14px 16px; /* Espacement autour du texte du lien */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+a:hover {
+    background-color: #17a2b8; /* Couleur de fond au survol du lien */
+    color: rgb(221, 208, 208); /* Couleur du texte au survol du lien */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(171, 18, 18, 0.1);
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+    background-image: url('aa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.page-footer p {
+    margin: 0;
+}
+
